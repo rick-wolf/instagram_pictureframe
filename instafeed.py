@@ -9,13 +9,13 @@ from instagram.client import InstagramAPI
 from os import listdir, system
 import requests
 
-client_id = 'a9ec09a9ba834019a48394823fde48b7'
-client_secret = '9fd810284766482eb7bc7ed9bfbfd0f5'
-dl_path = "/home/pi/vivianne"
+client_id = ''
+client_secret = ''
+dl_path = "/home/pi/viv"
 
 
 api = InstagramAPI(client_id=client_id, client_secret=client_secret)
-vivs_media = api.tag_recent_media(tag_name="viviannewolf", count=30)
+vivs_media = api.tag_recent_media(tag_name="XXXXXXXXX", count=30)
 
 
 # a list of links for the images
